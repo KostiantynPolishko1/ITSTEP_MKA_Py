@@ -2,10 +2,10 @@ import random
 
 
 class Student:
-    position = 0
-    name = ''
-    age = 0
-    count = 0
+    position: int
+    name: str
+    age: int
+    count: int
 
     def __init__(self, name, age):
         self.name = name
